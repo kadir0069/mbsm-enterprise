@@ -1,0 +1,841 @@
+.slicknav_menu {
+   display: none;
+}
+
+@font-face {
+   font-family: 'Asap-regular';
+   src: url(Asap/Asap-VariableFont_wdth,wght.ttf);
+}
+
+@font-face {
+   font-family: 'Asap-medium';
+   src: url(Asap/static/Asap-SemiBold.ttf);
+}
+
+@font-face {
+   font-family: 'Asap-bold';
+   src: url(Asap/static/Asap-Bold.ttf);
+}
+
+body {
+   background-size: 100% 100%;
+   /* 100% width and 100% height */
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+
+
+
+/* HEADER STYLE START */
+
+
+/* SLICK MENU */
+
+.slicknav_menu {
+   background: #ffa500;
+   padding: 5px
+}
+
+/* SLICK MENU */
+
+
+a#header-btn {
+   margin-top: 16px;
+   margin-left: 17px;
+}
+
+h2.hedar-text {
+   font-size: 50px;
+   font-family: 'Asap-regular';
+}
+
+h3.our-package-heading.text-center {
+   font-size: 36px;
+   font-family: 'Asap-regular';
+}
+
+p.package-para.text-center {
+   font-size: 30px;
+   padding: 10px;
+}
+
+.header {
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 100px;
+   background: rgba(221, 222, 222, 0.81);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100;
+   text-decoration: none;
+}
+
+.logo {
+   font-size: 32px;
+   color: white;
+   text-decoration: none;
+   font-weight: 700;
+}
+
+img {
+   width: 100px;
+}
+
+.navbar a {
+   position: relative;
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   font-weight: 500;
+   text-decoration: none;
+   margin-left: 40px;
+}
+
+.navbar a::before {
+   content: '';
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 0;
+   height: 2px;
+   background: rgb(0, 0, 0);
+   transition: .3s;
+   text-decoration: none;
+   color: rgb(107, 107, 107);
+}
+
+.navbar a:hover::before {
+   width: 100%;
+}
+
+
+/* HEADER STYLE END */
+
+
+
+/*REUSEALE AREA SRATR*/
+
+
+.btn-btnn {
+   width: 151px;
+   height: 61px;
+   background: orange;
+   color: #fff;
+   border-radius: 30px;
+   transition: 0.4s;
+   text-align: center;
+   padding: 20px;
+   margin-right: 26px;
+}
+
+.btn-btnn:hover {
+   background: transparent;
+   border: 1px solid #ffc562;
+   color: #000000;
+   text-decoration: none;
+}
+
+.btn-btnn-4 {
+   width: 150px;
+   height: 80px;
+   background: orange;
+   color: #fff;
+   border-radius: 30px;
+   transition: 0.4s;
+   text-align: center;
+   padding: 20px;
+   margin-right: 26px;
+   margin-left: 93px;
+   font-size: 13px;
+}
+
+.btn-btnn-4:hover {
+   background: transparent;
+   border: 1px solid #ffc562;
+   color: #000000;
+   text-decoration: none;
+}
+
+.btn-btnn-3 {
+   width: 151px;
+   height: 61px;
+   background: orange;
+   color: #fff;
+   border-radius: 30px;
+   transition: 0.4s;
+   text-align: center;
+   padding: 20px;
+   margin-right: 26px;
+}
+
+.btn-btnn-3:hover {
+   background: transparent;
+   border: 1px solid #ffc562;
+   color: #ffffff;
+   text-decoration: none;
+}
+
+
+.btn-btnn2 {
+   width: 151px;
+   height: 61px;
+   background: rgb(249, 65, 255);
+   color: #fff;
+   border-radius: 30px;
+   transition: 0.4s;
+   text-align: center;
+   padding: 20px;
+   margin-right: 26px;
+}
+
+.btn-btnn2:hover {
+   background: transparent;
+   border: 1px solid #dbdbdb;
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+}
+
+
+
+/*REUSEALE AREA END*/
+
+
+
+/* HERO STYLE START*/
+
+p.hero-para {
+   color: #fff;
+   text-align: left;
+   font-family: 'Asap-regular';
+}
+
+
+h2.hedar-text {
+   margin-top: 200px;
+   font-family: 'Asap-regular';
+}
+
+
+h2.hedar-text {
+   font-size: 50px;
+   font-family: 'Asap-bold';
+   color: #fff;
+}
+
+p {
+   font-size: 18px;
+   font-family: 'Asap-regular';
+   color: #fff;
+}
+
+a.btn-btnn {
+   margin-bottom: 19px;
+}
+
+.hero-section {
+   height: 100vh;
+   /* Full viewport height */
+   background-image: url(images/mbsm-bg.jpeg);
+   /* Replace with your image path */
+   background-size: cover;
+   /* Ensures the image covers the entire section */
+   background-position: center;
+   /* Centers the image */
+   background-repeat: no-repeat;
+   /* Prevents the image from repeating */
+}
+
+/* HERO STYLE END*/
+
+
+
+
+/*SOLUTION STYLE START*/
+
+
+.single-content-box-2 {
+   margin-left: 6px;
+}
+
+.single-content-box-3 {
+   margin-left: 6px;
+}
+
+.single-content-box-5 {
+   margin-left: 6px;
+}
+
+.single-content-box-6 {
+   margin-left: 6px;
+}
+
+h3.solution-heading {
+   font-size: 3rem;
+   text-align: center;
+   margin-top: 30px;
+   font-family: 'Asap-regular';
+}
+
+.single-content-box {
+   background: #ffffff;
+   width: 360px;
+   height: 488px;
+   border-radius: 10px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+   margin-top: 14px;
+}
+
+.single-content-box-1 {
+   background: #ffffff;
+   width: 360px;
+   height: 488px;
+   border-radius: 10px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+   margin-top: 14px;
+}
+
+.single-content-box-2 {
+   background: #ffffff;
+   width: 360px;
+   height: 488px;
+   border-radius: 10px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+   margin-top: 14px;
+}
+
+.single-content-box-3 {
+   background: #ffffff;
+   width: 360px;
+   height: 488px;
+   border-radius: 10px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+   margin-top: 14px;
+}
+
+.single-content-box-4 {
+   background: #ffffff;
+   width: 360px;
+   height: 488px;
+   border-radius: 10px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+   margin-top: 14px;
+}
+
+.single-content-box-5 {
+   background: #ffffff;
+   width: 360px;
+   height: 488px;
+   border-radius: 10px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+   margin-top: 14px;
+}
+
+.single-content-box-6 {
+   background: #ffffff;
+   width: 360px;
+   height: 488px;
+   border-radius: 10px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+   margin-top: 14px;
+}
+
+h4.solution-heading {
+   font-size: 25px;
+   text-align: center;
+   font-family: 'Asap-regular';
+   margin-top: 10px;
+}
+
+p.solution-para {
+   text-align: center;
+   color: black;
+   font-family: 'Asap-regular';
+}
+
+i.fa-solid.fa-network-wired {
+   align-items: center;
+   margin: 24px 160px;
+   font-size: 38px;
+   color: orange;
+}
+
+i.fa-solid.fa-ethernet {
+   align-items: center;
+   margin: 24px 160px;
+   font-size: 38px;
+   color: orange;
+}
+
+i.fa-solid.fa-globe {
+   align-items: center;
+   margin: 24px 160px;
+   font-size: 38px;
+   color: orange;
+}
+
+i.fa-solid.fa-server {
+   align-items: center;
+   margin: 24px 160px;
+   font-size: 38px;
+   color: orange;
+}
+
+i.fa-solid.fa-hospital-user {
+   align-items: center;
+   margin: 24px 160px;
+   font-size: 38px;
+   color: orange;
+}
+
+i.fa-solid.fa-video {
+   align-items: center;
+   margin: 24px 160px;
+   font-size: 38px;
+   color: orange;
+}
+
+
+
+/*SOLUTION STYLE END*/
+
+
+
+/*PACKAGE STYLE START */
+
+ul {
+   margin-left: 22px;
+   padding: 27PX;
+   font-size: 30px;
+   font-family: 'Asap-regular';
+}
+
+.single-package-box-1 {
+   width: 150px;
+   height: 390px;
+}
+
+.single-package-box-2 {
+   width: 150px;
+   height: 390px;
+   margin-left: 6px;
+}
+
+.single-package-box-3 {
+   width: 150px;
+   height: 390px;
+   margin-left: 6px;
+}
+
+
+.single-package-box-1 {
+   background: #ffffff;
+   width: 93%;
+   height: 500px;
+   border-radius: 22px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+}
+
+.single-package-box-2 {
+   background: #ffffff;
+   width: 93%;
+   height: 500px;
+   border-radius: 22px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+}
+
+.single-package-box-3 {
+   background: #ffffff;
+   width: 93%;
+   height: 500px;
+   border-radius: 22px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+}
+
+.single-package-box-4 {
+   background: #ffffff;
+   width: 93%;
+   height: 500px;
+   border-radius: 22px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+}
+
+.single-package-box-5 {
+   background: #ffffff;
+   width: 93%;
+   height: 500px;
+   border-radius: 22px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+}
+
+.single-package-box-6 {
+   background: #ffffff;
+   width: 93%;
+   height: 500px;
+   border-radius: 22px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+}
+
+
+
+.text-center {
+   text-align: center !important;
+   color: black;
+}
+
+.single-package-box-1 img {
+   width: 100%;
+   height: 50%;
+   border-top-right-radius: 22px;
+   border-top-left-radius: 22px;
+}
+
+.single-package-box-2 img {
+   width: 100%;
+   height: 50%;
+   border-top-right-radius: 22px;
+   border-top-left-radius: 22px;
+}
+
+.single-package-box-3 img {
+   width: 100%;
+   height: 50%;
+   border-top-right-radius: 22px;
+   border-top-left-radius: 22px;
+}
+
+.single-package-box-4 img {
+   width: 100%;
+   height: 50%;
+   border-top-right-radius: 22px;
+   border-top-left-radius: 22px;
+}
+
+.single-package-box-5 img {
+   width: 100%;
+   height: 50%;
+   border-top-right-radius: 22px;
+   border-top-left-radius: 22px;
+}
+
+.single-package-box-6 img {
+   width: 100%;
+   height: 50%;
+   border-top-right-radius: 22px;
+   border-top-left-radius: 22px;
+}
+
+
+a#package-btn {
+   margin-left: 103px;
+}
+
+li {
+   font-size: 13px;
+   font-family: 'Asap-regular';
+}
+
+ul.package-ul {
+   margin-left: 41px;
+   padding: 23px;
+}
+
+h3.our-package-heading.text-center {
+   margin-top: 24px;
+}
+
+
+
+
+.single-covarage-box {
+   width: 100%;
+   height: 300px;
+   background-image: url(images/mbsm-coverrage-cheack.jpg);
+   background-size: cover;
+   /* Ensures the image covers the entire section */
+   background-position: center;
+   /* Centers the image */
+   background-repeat: no-repeat;
+   /* Prevents the image from repeating */
+}
+
+p.covarage-para.text-center.\[\#fff\] {
+   color: white;
+   font-size: 16px;
+   padding: 19px;
+   font-family: 'Asap-regular';
+}
+
+
+h4.covarage-heading.text-center {
+   color: white;
+   padding: 116px 0px 0px;
+   font-size: 3rem;
+   margin-top: 64px;
+   font-family: 'Asap-regular';
+}
+
+
+
+#package-res {
+   margin-left: 611px;
+}
+
+/* PACKAGE STYLE END */
+
+
+
+
+/* CHOOSE STYLE START */
+
+.single-choose-us-box-1 {
+   height: 256px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+   border-radius: 20px;
+}
+
+.single-choose-us-box-2 {
+   height: 256px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+   border-radius: 20px;
+}
+
+.single-choose-us-box-3 {
+   height: 256px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+   border-radius: 20px;
+}
+
+.single-choose-us-box-4 {
+   height: 256px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+   border-radius: 20px;
+}
+
+.single-choose-us-box-5 {
+   height: 256px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+   border-radius: 20px;
+}
+
+.single-choose-us-box-6 {
+   height: 256px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+   border-radius: 20px;
+}
+
+
+p.choose-us-para {
+   color: #000000;
+   padding: 12px;
+}
+
+i.fa-solid.fa-wand-magic-sparkles {
+   /* margin: 0px auto; */
+   margin-left: 157px;
+   font-size: 20px;
+   padding: 13px;
+   color: orange;
+}
+
+h2.why-choose-us.text-center {
+   padding: 20px;
+   font-size: 36px;
+
+}
+
+p.why-choose-us-para.text-center {
+   padding: 23px;
+}
+
+.single-choose-us-box {
+   margin-top: 28px;
+   width: 360px;
+   margin-left: 31px;
+}
+
+
+
+/* CHOOSE STYLE END */
+
+
+
+/* SERVICE PROVIDER STYLE START*/
+
+
+.doc-content {
+   margin: 0 7px;
+   width: 100px;
+}
+
+.doc-content h3,
+p {
+   text-align: center;
+   color: black;
+}
+
+.doc-content img {
+   width: 200px;
+   height: 37px;
+   background: transparent;
+}
+
+section.slider {
+   width: 456px;
+}
+
+
+section.color {
+   background: #dbdbdb;
+   padding: 50px;
+   margin-top: 50px;
+}
+
+h3.service-provider-heading {
+   font-size: 51px;
+}
+
+.col-xl-6 {
+   height: 50px;
+}
+
+
+/* SERVICE PROVIDER STYLE END */
+
+
+/* AUTHOR STYLE START */
+
+
+.single-author-image img {
+   width: 100%;
+   border-top-right-radius: 22px;
+   border-top-left-radius: 22px;
+}
+
+.single-author-image {
+   align-items: center;
+   width: 250px;
+   height: 400px;
+   background: white;
+   border-radius: 20px;
+   margin-left: 300px;
+   margin-top: 20px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+   padding: 10px;
+}
+
+h4.author-heading {
+   text-align: center;
+   padding: 16px;
+   font-family: 'Asap-medium';
+}
+
+.single-author-image-2 img {
+   width: 100%;
+   border-top-right-radius: 22px;
+   border-top-left-radius: 22px;
+}
+
+.single-author-image-2 {
+   align-items: center;
+   width: 250px;
+   height: 400px;
+   background: white;
+   border-radius: 20px;
+   margin-left: 70px;
+   margin-top: 20px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+   padding: 10px;
+}
+
+h4.author-heading {
+   text-align: center;
+   padding: 16px;
+   font-family: 'Asap-regular';
+}
+
+h3.author-main-heading.text-center {
+   font-size: 2.5rem;
+   margin-top: 28px;
+   padding-top: 23px;
+}
+
+p.author-main-para.text-center {
+   font-size: 21px;
+   padding: 14px;
+   padding-left: 52px;
+   padding-right: 52px;
+}
+
+section.author-info {
+   background: #dbdbdb;
+}
+
+.col-lg-6 {
+   padding: 26px;
+}
+
+
+/* AUTHOR STYLE END */
+
+
+/* FOOTER STYLE START */
+
+button.btn.btn-primary.join-item {
+   background: orange;
+   border: 0px;
+   cursor: pointer;
+}
+
+button.btn.btn-primary.join-item:hover {
+   background: transparent;
+   color: white;
+   border: 1px solid skyblue;
+}
+
+
+footer.footer.bg-base-200.text-base-content.p-10 {
+   margin-top: 30px;
+}
+
+
+p.footer-para {
+   text-align: left;
+}
+
+
+/* FOOTER STYLE END */
+
+
+
+
+
+/* SERVICE STYLE START */
+
+
+#service-btn{
+   margin-left: 490px;
+}
+
+h1.service-heading.text-center {
+   font-size: 2.5rem;
+   padding-top: 53px;
+   color: white;
+   margin-top: 200px;
+}
+
+p.service-para.text-center {
+   font-size: 26px;
+   padding-bottom: 30px;
+   color: white;
+}
+
+section.service-hero {
+   background: url(images/mbsm-coverrage-cheack.jpg);
+   background-size: cover;
+   height: 600px;
+}
+
+
+/* SERVICE STYLE END */
